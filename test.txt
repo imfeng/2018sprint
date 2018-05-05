@@ -1,0 +1,13 @@
+
+POST / HTTP/1.1
+host: tes.big-cause.com
+content-type: application/x-www-form-urlencoded
+content-Length: 39
+
+id=deviceAAA&temprature=999&humidity=67
+
+50 4f 53 54 20 2f 20 48 54 54 50 2f 31 2e 31 0a 68 6f 73 74 3a 20 74 65 73 2e 62 69 67 2d 63 61 75 73 65 2e 63 6f 6d 0a 0a
+50 4f 53 54 20 2f 20 48 54 54 50 2f 31 2e 31 5c 72 5c 6e 68 6f 73 74 3a 20 74 65 73 2e 62 69 67 2d 63 61 75 73 65 2e 63 6f 6d 0a 0a
+
+50 4f 53 54 20 2f 20 48 54 54 50 2f 31 2e 31 0d 0a 68 6f 73 74 3a 20 74 65 73 2e 62 69 67 2d 63 61 75 73 65 2e 63 6f 6d 0d 0a
+50 4f 53 54 20 2f 20 48 54 54 50 2f 31 2e 31 0d 0a 48 4f 53 54 3a 20 74 65 73 2e 62 69 67 2d 63 61 75 73 65 2e 63 6f 6d 0d 0a

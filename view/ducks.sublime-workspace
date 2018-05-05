@@ -1,0 +1,1241 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"grou",
+				"groupId"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"ta",
+				"table-cell"
+			],
+			[
+				"contr",
+				"controller"
+			],
+			[
+				"te",
+				"templates"
+			],
+			[
+				"cmd_",
+				"cmd_arr1"
+			],
+			[
+				"print",
+				"print"
+			],
+			[
+				"M",
+				"MONITOR_TIME"
+			],
+			[
+				"devices",
+				"devicesInfo"
+			],
+			[
+				"lie",
+				"listen"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"todo",
+				"todoList"
+			],
+			[
+				"vl",
+				"value"
+			],
+			[
+				"park",
+				"parkingHistory"
+			],
+			[
+				"sc",
+				"scope"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"the",
+				"then\t.then()"
+			],
+			[
+				"parkin",
+				"parkingHistoryList"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"ioni",
+				"ionicPopup"
+			],
+			[
+				"option",
+				"optionsPopup"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"car",
+				"carLocations"
+			],
+			[
+				"retur",
+				"return"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"set",
+				"setPosition"
+			],
+			[
+				"ht",
+				"html\t.html()"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"Statu",
+				"status_automationRun"
+			],
+			[
+				"stat",
+				"status_timeCorrected"
+			],
+			[
+				"run",
+				"run_pressKey"
+			],
+			[
+				"prin",
+				"println"
+			],
+			[
+				"data",
+				"datacode"
+			],
+			[
+				"sect",
+				"sections_max_length"
+			],
+			[
+				"start",
+				"startCode"
+			],
+			[
+				"bl",
+				"ble_temp_length"
+			],
+			[
+				"Li",
+				"LightAnalogValue"
+			],
+			[
+				"d",
+				"django"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"wind",
+				"window_height"
+			],
+			[
+				"css",
+				"css\t.css() - single"
+			],
+			[
+				"su",
+				"submit\t.submit()"
+			],
+			[
+				"cat",
+				"category"
+			],
+			[
+				"he",
+				"Hello_world"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 9504,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "function initLoginFunc(){\n\n  $('.btn-social').on('click',function(event) {\n    var sel = $(this);\n    var provider = sel.attr('provider');\n    event.preventDefault();\n    /* Act on the event */\n    loginFrom(provider);\n  });\n}\ninitLoginFunc();\nfunction loginFrom(src=null) {\n  switch(src){\n    case 'fb':\n      break;\n    case 'google':s\n      break;\n    default:\n      break;\n  }\n}\nfunction login_fb(){\n  firebase.auth().signInWithPopup(provider).then(function(result) {\n    // This gives you a Facebook Access Token. You can use it to access the Facebook API.\n    var token = result.credential.accessToken;\n    // The signed-in user info.\n    var user = result.user;\n    // ...\n  }).catch(function(error) {\n    // Handle Errors here.\n    var errorCode = error.code;\n    var errorMessage = error.message;\n    // The email of the user's account used.\n    var email = error.email;\n    // The firebase.auth.AuthCredential type that was used.\n    var credential = error.credential;\n    // ...\n  });\n}",
+			"file": "login.js",
+			"file_size": 1034,
+			"file_write_time": 131463918324098600,
+			"settings":
+			{
+				"buffer_size": 997,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "func.js",
+			"settings":
+			{
+				"buffer_size": 4541,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Feng/Downloads/duck_wp.sql",
+			"settings":
+			{
+				"buffer_size": 1627321,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Feng/Downloads/alex/alex.sql",
+			"settings":
+			{
+				"buffer_size": 1604575,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Feng/Downloads/alex/latin1Toutf8.py",
+			"settings":
+			{
+				"buffer_size": 239,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Feng/Downloads/alex/alex_o.sql",
+			"settings":
+			{
+				"buffer_size": 1604687,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<header class=\"navbar navbar-static-top navbar-inverse\" id=\"top\" role=\"banner\">\n    <div class=\"container\">\n        <div class=\"navbar-header\">\n            <button class=\"navbar-toggle collapsed\" type=\"button\" data-toggle=\"collapse\" data-target=\".bs-navbar-collapse\"> <span class=\"sr-only\">Toggle navigation</span>\n <span class=\"icon-bar\"></span>\n <span class=\"icon-bar\"></span>\n <span class=\"icon-bar\"></span>\n\n            </button> <a href=\"#\" class=\"navbar-brand\">Firebase login</a>\n\n        </div>\n        <nav class=\"collapse navbar-collapse bs-navbar-collapse\" role=\"navigation\">\n            <ul class=\"nav navbar-nav\">\n                <li> <a href=\"#/\">Login</a>\n\n                </li>\n                <li> <a href=\"#/logout\">Logout</a>\n\n                </li>\n                <li> <a href=\"#/register\">Register</a>\n\n                </li>\n                <li> <a href=\"#/profile\">Profile</a>\n\n                </li>\n            </ul>\n        </nav>\n    </div>\n</header>\n<div id=\"container\" class=\"container\">\n    <!-- LOGIN -->\n    <form id=\"frmLogin\" role=\"form\">\n         <h2>Login</h2>\n\n        <div class=\"form-group\">\n            <label for=\"txtEmail\">Email address</label>\n            <input type=\"email\" class=\"form-control\" id=\"txtEmail\" placeholder=\"Enter email\" name=\"email\" />\n        </div>\n        <div class=\"form-group\">\n            <label for=\"txtPass\">Password</label>\n            <input type=\"password\" class=\"form-control\" id=\"txtPass\" placeholder=\"Password\" name=\"password\" />\n        </div>\n        <button type=\"submit\" class=\"btn btn-default btn-block\">Login</button>\n        <br />\n        <br />\n         <h4>Login with</h4>\n <a href=\"#\" class=\"btn btn-primary bt-social\" data-provider=\"facebook\">Facebook</a>\n <a href=\"#\" class=\"btn btn-info bt-social\" data-provider=\"twitter\">Twitter</a>\n\n        <!-- <a href=\"#\" class=\"btn btn-danger bt-social\" data-provider=\"google\">Google+</a> --> <a href=\"#\" class=\"btn btn-default bt-social\" data-provider=\"github\">GitHub</a>\n <a href=\"#\" class=\"btn btn-warning\" id=\"btAnon\">Anon</a>\n\n    </form>\n    <!-- / LOGIN -->\n    <!-- LOGOUT -->\n    <form id=\"frmLogout\" role=\"form\">\n         <h2>You are logged out!</h2>\n\n    </form>\n    <!-- / LOGOUT -->\n    <!-- REGISTER -->\n    <form id=\"frmRegister\" role=\"form\">\n         <h2>Register</h2>\n\n        <div class=\"form-group\">\n            <label for=\"txtRegEmail\">Email address</label>\n            <input type=\"email\" class=\"form-control\" id=\"txtEmail\" placeholder=\"Enter email\" name=\"email\" />\n        </div>\n        <div class=\"form-group\">\n            <label for=\"txtRegPass\">Password</label>\n            <input type=\"password\" class=\"form-control\" id=\"txtPass\" placeholder=\"Password\" name=\"password\" />\n        </div>\n        <button type=\"submit\" class=\"btn btn-default\">Register</button>\n    </form>\n    <!-- / REGISTER -->\n    <!-- PROFILE -->\n    <form id=\"frmProfile\" role=\"form\">\n         <h2>Profile</h2>\n\n        <br />\n        <div class=\"form-group\">\n            <label for=\"txtName\">Name</label>\n            <input type=\"text\" class=\"form-control\" id=\"txtName\" placeholder=\"Name\" name=\"name\" />\n        </div>\n        <div class=\"form-group\">\n            <label for=\"ddlDino\">Favorite Dinosaur</label>\n            <select id=\"ddlDino\" name=\"favoriteDinosaur\" class=\"form-control\">\n                <option>None</option>\n                <option>Pteranodon</option>\n                <option>Lambeosaurus</option>\n                <option>Stegosaurus</option>\n                <option>Daspletosaurus</option>\n            </select>\n        </div>\n        <button type=\"submit\" class=\"btn btn-primary\">Update</button>\n    </form>\n    <!-- / PROFILE -->\n    <hr />\n    <!-- ALERT BOX -->\n    <div id=\"alert\" class=\"alert\" role=\"alert\">\n         <h4 id=\"alert-title\">You are not logged in</h4>\n\n        <p id=\"alert-detail\"></p>\n    </div>\n    <!-- / ALERT BOX -->\n</div>",
+			"settings":
+			{
+				"buffer_size": 3892,
+				"line_ending": "Windows",
+				"name": "<header class=\"navbar navbar-static-top navbar-inv"
+			}
+		},
+		{
+			"contents": "(function (jQuery, Firebase, Path) {\n    \"use strict\";\n\n    // the main firebase reference\n    var rootRef = new Firebase('https://zanox.firebaseio.com');\n\n    // pair our routes to our form elements and controller\n    var routeMap = {\n        '#/': {\n            form: 'frmLogin',\n            controller: 'login'\n        },\n            '#/logout': {\n            form: 'frmLogout',\n            controller: 'logout'\n        },\n            '#/register': {\n            form: 'frmRegister',\n            controller: 'register'\n        },\n            '#/profile': {\n            form: 'frmProfile',\n            controller: 'profile',\n            authRequired: true // must be logged in to get here\n        },\n    };\n\n    // create the object to store our controllers\n    var controllers = {};\n\n    // store the active form shown on the page\n    var activeForm = null;\n\n    var alertBox = $('#alert');\n\n    function routeTo(route) {\n        window.location.href = '#/' + route;\n    }\n\n    // Handle third party login providers\n    // returns a promise\n    function thirdPartyLogin(provider) {\n        var deferred = $.Deferred();\n\n        rootRef.authWithOAuthPopup(provider, function (err, user) {\n            if (err) {\n                deferred.reject(err);\n            }\n\n            if (user) {\n                deferred.resolve(user);\n            }\n        });\n\n        return deferred.promise();\n    };\n\n    // Handle Email/Password login\n    // returns a promise\n    function authWithPassword(userObj) {\n        var deferred = $.Deferred();\n        console.log(userObj);\n        rootRef.authWithPassword(userObj, function onAuth(err, user) {\n            if (err) {\n                deferred.reject(err);\n            }\n\n            if (user) {\n                deferred.resolve(user);\n            }\n\n        });\n        \n        return deferred.promise(\n        \n        );\n    }\n\n    // create a user but not login\n    // returns a promsie\n    function createUser(userObj) {\n        var deferred = $.Deferred();\n        rootRef.createUser(userObj, function (err) {\n\n            if (!err) {\n                deferred.resolve();\n            } else {\n                deferred.reject(err);\n            }\n\n        });\n\n        return deferred.promise();\n    }\n\n    // Create a user and then login in\n    // returns a promise\n    function createUserAndLogin(userObj) {\n        return createUser(userObj)\n            .then(function () {\n            return authWithPassword(userObj);\n        });\n    }\n\n    // authenticate anonymously\n    // returns a promise\n    function authAnonymously() {\n        var deferred = $.Deferred();\n        rootRef.authAnonymously(function (err, authData) {\n\n            if (authData) {\n                deferred.resolve(authData);\n            }\n\n            if (err) {\n                deferred.reject(err);\n            }\n\n        });\n\n        return deferred.promise();\n    }\n\n    // route to the specified route if sucessful\n    // if there is an error, show the alert\n    function handleAuthResponse(promise, route) {\n        $.when(promise)\n            .then(function (authData) {\n\n            // route\n             window.location.href = 'teste';\n\n        }, function (err) {\n            console.log(err);\n            // pop up error\n            showAlert({\n                title: err.code,\n                detail: err.message,\n                className: 'alert-danger'\n            });\n\n        });\n    }\n\n    // options for showing the alert box\n    function showAlert(opts) {\n        var title = opts.title;\n        var detail = opts.detail;\n        var className = 'alert ' + opts.className;\n\n        alertBox.removeClass().addClass(className);\n        alertBox.children('#alert-title').text(title);\n        alertBox.children('#alert-detail').text(detail);\n    }\n\n    /// Controllers\n    ////////////////////////////////////////\n\n    controllers.login = function (form) {\n\n        // Form submission for logging in\n        form.on('submit', function (e) {\n\n            var userAndPass = $(this).serializeObject();\n            var loginPromise = authWithPassword(userAndPass);\n            e.preventDefault();\n\n            handleAuthResponse(loginPromise, 'profile');\n\n        });\n\n        // Social buttons\n        form.children('.bt-social').on('click', function (e) {\n\n            var $currentButton = $(this);\n            var provider = $currentButton.data('provider');\n            var socialLoginPromise;\n            e.preventDefault();\n\n            socialLoginPromise = thirdPartyLogin(provider);\n            handleAuthResponse(socialLoginPromise, 'profile');\n\n        });\n\n        form.children('#btAnon').on('click', function (e) {\n            e.preventDefault();\n            handleAuthResponse(authAnonymously(), 'profilex');\n        });\n\n    };\n\n    // logout immediately when the controller is invoked\n    controllers.logout = function (form) {\n        rootRef.unauth();\n    };\n\n    controllers.register = function (form) {\n\n        // Form submission for registering\n        form.on('submit', function (e) {\n\n            var userAndPass = $(this).serializeObject();\n            var loginPromise = createUserAndLogin(userAndPass);\n            e.preventDefault();\n\n            handleAuthResponse(loginPromise, 'profile');\n\n        });\n\n    };\n\n    controllers.profile = function (form) {\n        // Check the current user\n        var user = rootRef.getAuth();\n        var userRef;\n\n        // If no current user send to register page\n        if (!user) {\n            routeTo('register');\n            return;\n        }\n\n        // Load user info\n        userRef = rootRef.child('users').child(user.uid);\n        userRef.once('value', function (snap) {\n            var user = snap.val();\n            if (!user) {\n                return;\n            }\n\n            // set the fields\n            form.find('#txtName').val(user.name);\n            form.find('#ddlDino').val(user.favoriteDinosaur);\n        });\n\n        // Save user's info to Firebase\n        form.on('submit', function (e) {\n            e.preventDefault();\n            var userInfo = $(this).serializeObject();\n\n            userRef.set(userInfo, function onComplete() {\n\n                // show the message if write is successful\n                showAlert({\n                    title: 'Successfully saved!',\n                    detail: 'You are still logged in',\n                    className: 'alert-success'\n                });\n\n            });\n        });\n\n    };\n\n    /// Routing\n    ////////////////////////////////////////\n\n    // Handle transitions between routes\n    function transitionRoute(path) {\n        // grab the config object to get the form element and controller\n        var formRoute = routeMap[path];\n        var currentUser = rootRef.getAuth();\n\n        // if authentication is required and there is no\n        // current user then go to the register page and\n        // stop executing\n        if (formRoute.authRequired && !currentUser) {\n            routeTo('register');\n            return;\n        }\n\n        // wrap the upcoming form in jQuery\n        var upcomingForm = $('#' + formRoute.form);\n\n        // if there is no active form then make the current one active\n        if (!activeForm) {\n            activeForm = upcomingForm;\n        }\n\n        // hide old form and show new form\n        activeForm.hide();\n        upcomingForm.show().hide().fadeIn(750);\n\n        // remove any listeners on the soon to be switched form\n        activeForm.off();\n\n        // set the new form as the active form\n        activeForm = upcomingForm;\n\n        // invoke the controller\n        controllers[formRoute.controller](activeForm);\n    }\n\n    // Set up the transitioning of the route\n    function prepRoute() {\n        transitionRoute(this.path);\n    }\n\n\n    /// Routes\n    ///  #/         - Login\n    //   #/logout   - Logut\n    //   #/register - Register\n    //   #/profile  - Profile\n\n    Path.map(\"#/\").to(prepRoute);\n    Path.map(\"#/logout\").to(prepRoute);\n    Path.map(\"#/register\").to(prepRoute);\n    Path.map(\"#/profile\").to(prepRoute);\n\n    Path.root(\"#/\");\n\n    /// Initialize\n    ////////////////////////////////////////\n\n    $(function () {\n\n        // Start the router\n        Path.listen();\n\n        // whenever authentication happens send a popup\n        rootRef.onAuth(function globalOnAuth(authData) {\n\n            if (authData) {\n                showAlert({\n                    title: 'Logged in!',\n                    detail: 'Using ' + authData.provider,\n                    className: 'alert-success'\n                });\n            } else {\n                showAlert({\n                    title: 'You are not logged in',\n                    detail: '',\n                    className: 'alert-info'\n                });\n            }\n\n        });\n\n    });\n\n}(window.jQuery, window.Firebase, window.Path)",
+			"settings":
+			{
+				"buffer_size": 8835,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 1811,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 784.0,
+		"last_filter": "pyt",
+		"selected_items":
+		[
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javase",
+				"Set Syntax: Java Server Page (JSP)"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"minif",
+				"Minify Javascript"
+			],
+			[
+				"insl",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"mi",
+				"Minify::Default File Settings"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"ard",
+				"Set Syntax: Arduino"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"arduino",
+				"Set Syntax: Arduino"
+			],
+			[
+				"mard",
+				"Set Syntax: Markdown"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"c+",
+				"Set Syntax: C++"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"typesc",
+				"Set Syntax: TypeScript"
+			],
+			[
+				"++",
+				"Set Syntax: C++"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"PHP",
+				"Set Syntax: PHP"
+			],
+			[
+				"prettif",
+				"HTMLPrettify"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jaca",
+				"Set Syntax: JavaScript (Rails)"
+			],
+			[
+				"C++",
+				"Set Syntax: C++"
+			],
+			[
+				"ht",
+				"HTMLPrettify"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"Snippet tab",
+				"Snippet: bs3-tabs"
+			],
+			[
+				"ve",
+				"Set Syntax: Verilog"
+			],
+			[
+				"python",
+				"Build With: Python - Syntax Check"
+			],
+			[
+				"dins",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"inslta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 864.0
+	},
+	"console":
+	{
+		"height": 246.0,
+		"history":
+		[
+			"python",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Feng/Documents/ducks"
+	],
+	"file_history":
+	[
+		"/C/Users/Feng/Downloads/alex/alex.sql",
+		"/C/Users/Feng/Downloads/duck_wp.sql",
+		"/C/Users/Feng/Documents/ducks/src/css/font-awesome.min.css",
+		"/C/Users/Feng/AppData/Roaming/Sublime Text 3/Packages/Minify/Minify.sublime-settings",
+		"/C/Users/Feng/Documents/ducks/angular2-firebase-demo/www/index.html",
+		"/C/Users/Feng/Documents/WORK_phys/LightCtrl/www/js/services.js",
+		"/C/Users/Feng/Documents/WORK_phys/LightCtrl/www/templates/management/groupsList.html",
+		"/C/Users/Feng/Documents/WORK_phys/LightCtrl/www/templates/management/modifyGroupPopup.html",
+		"/C/Users/Feng/Documents/anlanjie/wp-config.php",
+		"/C/Users/Feng/Documents/anlanjie/functions.php",
+		"/C/Users/Feng/Documents/anlanjie/post.php",
+		"/C/Users/Feng/Documents/Arduino/libraries/PacketSerial-master/src/Encoding/COBS.h",
+		"/C/Users/Feng/Documents/WORK_phys/Correcting/Labview-Led-correcting/ref_10m.txt",
+		"/C/Users/Feng/Documents/WORK_phys/Correcting/Labview-Led-correcting/ref_5m.txt",
+		"/C/Users/Feng/Documents/Arduino/libraries/PacketSerial-master/src/PacketSerial.h",
+		"/C/Users/Feng/Documents/WORK_phys/pySe.py",
+		"/C/Users/Feng/Documents/WORK_phys/LightCtrl/www/js/controllers.js",
+		"/C/Users/Feng/Documents/WORK_phys/LightCtrl/www/templates/management/management.index.html",
+		"/C/Users/Feng/Documents/WORK_phys/LightCtrl/www/templates/tabs.html",
+		"/C/Users/Feng/Documents/WORK_phys/LightCtrl/www/index.html",
+		"/C/Users/Feng/Documents/WORK_phys/LightCtrl/www/js/app.js",
+		"/C/Users/Feng/Documents/WORK_phys/Correcting/Labview-Led-correcting/scale.txt",
+		"/C/Users/Feng/Documents/WORK_phys/Correcting/Labview-Led-correcting/dark.txt",
+		"/C/Users/Feng/Documents/WORK_phys/Correcting/Labview-Led-correcting/scale.csv",
+		"/C/Users/Feng/Documents/WORK_phys/Correcting/Labview-Led-correcting/ref_5m.csv",
+		"/C/Users/Feng/Documents/Arduino/libraries/PacketSerial-master/src/Encoding/SLIP.h",
+		"/C/Users/Feng/Documents/WORK_phys/cmd_parameter.py",
+		"/C/Users/Feng/Documents/WORK_phys/listingCOM.py",
+		"/C/Users/Feng/Documents/WORK_phys/Correcting/Labview-Led-correcting/rate.txt",
+		"/C/Users/Feng/Documents/WORK_phys/LightCtrl/www/templates/management - 複製/modifyGroupPopup.html",
+		"/C/Users/Feng/Documents/WORK_phys/LightCtrl/www/templates/management/devicesList.html",
+		"/C/Users/Feng/Documents/WORK_phys/LightCtrl/www/templates/sectionEdit.html",
+		"/C/Users/Feng/Documents/WORK_phys/LightCtrl/www/js/controllers - 複製.js",
+		"/C/Users/Feng/Documents/WORK_phys/LightCtrl/www/templates/tab-connect.html",
+		"/C/Users/Feng/Documents/WORK_phys/LightCtrl/www/templates/devicesList/devicesList.index.html",
+		"/C/Users/Feng/Documents/WORK_phys/LightCtrl/www/templates/patternEdit.html",
+		"/C/Users/Feng/Documents/WORK_phys/LightCtrl/www/templates/modes.html",
+		"/C/Users/Feng/Documents/WORK_phys/LightCtrl/www/templates/patterns.html",
+		"/C/Users/Feng/Documents/WORK_phys/LightCtrl/www/templates/schedule/schedule.index.html",
+		"/C/Users/Feng/Documents/WORK_phys/sunLight/www/index.html",
+		"/C/Users/Feng/Documents/WORK_phys/parameter.txt",
+		"/C/Users/Feng/Documents/WORK_phys/修正5月底",
+		"/C/Users/Feng/Documents/parkinggo/www/js/controllers.js",
+		"/C/Users/Feng/Documents/SmartParking/nodejs/server.js",
+		"/C/Users/Feng/Documents/WORK_phys/Correcting/新增資料夾/test/5m2_absolute_168760_90,75,50,55,100,90,55,0,45,0,65,35.txt",
+		"/C/Users/Feng/Documents/WORK_phys/Correcting/手電筒測試/labview",
+		"/F/f6flpy-x64/IaNVMe.inf",
+		"/F/f6flpy-x64/iaAHCIC.inf",
+		"/C/Users/Feng/Documents/Arduino/LBLE/src/LBLEPeriphral.h",
+		"/C/Users/Feng/Documents/Arduino/linkit7697_ble-Peripheral/linkit7697_ble-Peripheral.ino",
+		"/C/Users/Feng/Documents/SmartParking/sftp-config.json",
+		"/C/Users/Feng/Documents/SmartParking/GY-273/gy273.ino/gy273.ino.ino",
+		"/C/Users/Feng/Documents/SmartParking/nodejs/firebaseAdmin.js",
+		"/C/Users/Feng/Documents/parkinggo/www/index.html",
+		"/C/Users/Feng/Documents/WORK_phys/Correcting/Labview-Led-correcting/calibration.txt",
+		"/F/f6flpy-x64/iaAHCIC.cat",
+		"/C/Users/Feng/Documents/WORK_phys/Correcting/新增資料夾/test/5m2_relative_168760_90,75,50,55,100,90,55,0,45,0,65,35.txt",
+		"/C/Users/Feng/Documents/WORK_phys/Correcting/Labview-Led-correcting/2015-12-21_USB2+xxx_FiberXXX_VIS Calibration_OOIIrrad.cal",
+		"/C/Users/Feng/Documents/WORK_phys/LED_correcting/pySe.py",
+		"/C/Users/Feng/Documents/WORK_phys/Correcting/2015-12-21_USB2+xxx_FiberXXX_VIS Calibration_OOIIrrad.cal",
+		"/C/Users/Feng/Documents/SmartParking/nodeMCU/nodeMCU.ino",
+		"/C/Users/Feng/Documents/SmartParking/wifiClient/wifiClient.ino",
+		"/C/Users/Feng/Documents/SmartParking/arduino_lora/arduino_lora.ino",
+		"/C/Users/Feng/Documents/WORK_phys/labview/test/Ocean Optics 2000 4000 Example.xls",
+		"/C/Users/Feng/Documents/Arduino/package_mtk_linkit_7697_index.json",
+		"/C/Users/Feng/Documents/parkinggo/www/templates/tab-map.html",
+		"/C/Users/Feng/Documents/SmartParking/gy-273-oring/gy273/gy273.ino",
+		"/C/Users/Feng/Documents/SmartParking/arduino_esp_server/arduino_esp_server.ino",
+		"/C/Users/Feng/Documents/Arduino/nodeMCU/nodeMCU.ino",
+		"/C/Users/Feng/Documents/Arduino/libraries/ESP8266WiFi/src/queue.h",
+		"/C/Users/Feng/Documents/SmartParking/gy-273-oring/gy273.ino",
+		"/C/Users/Feng/Documents/SmartParking/nodejs/mygeodata.zip",
+		"/C/Users/Feng/Documents/SmartParking/nodejs/features-todolist.js",
+		"/C/Users/Feng/Documents/parkinggo/www/js/app.js",
+		"/C/Users/Feng/Documents/parkinggo/www/templates/chat-detail.html",
+		"/C/Users/Feng/Documents/nba/trypage.php",
+		"/C/Users/Feng/Documents/nba/member.php",
+		"/C/Users/Feng/Documents/nba/ftpsync.settings",
+		"/C/Users/Feng/test_jango/my-pro-guide/node_modules/bootstrap-sass/assets/javascripts/bootstrap.js",
+		"/C/Users/Feng/Documents/parkinggo/www/js/services.js",
+		"/C/Users/Feng/Documents/parkinggo/www/dataset",
+		"/C/Users/Feng/Documents/SmartParking/流程.txt",
+		"/C/Users/Feng/Documents/SmartParking/胡亂統整.txt",
+		"/C/Users/Feng/Documents/SmartParking/nodejs/spaces.csv",
+		"/C/Users/Feng/Documents/parkinggo/www/templates/tab-account.html",
+		"/C/Users/Feng/Documents/Arduino/SmartParking/sftp-config.json",
+		"/C/Users/Feng/Documents/Arduino/SmartParking/nodejs/features-todolist.js",
+		"/C/Users/Feng/Documents/Arduino/SmartParking/nodejs/firebaseAdmin.js",
+		"/C/Users/Feng/Documents/Arduino/SmartParking/nodejs/server.js",
+		"/C/Users/Feng/Documents/Arduino/SmartParking/nodejs/html/firebase.html",
+		"/C/Users/Feng/Documents/firebaseTest/index.html",
+		"/C/Users/Feng/Documents/Arduino/SmartParking/nodejs/html/firebase.htm",
+		"/C/Users/Feng/Documents/Arduino/SmartParking/nodejs/mapTest-7195459bddc7.json",
+		"/C/Users/Feng/Documents/Arduino/SmartParking/nodejs/test.js",
+		"/C/Users/Feng/Desktop/myApp/www/js/controllers.js",
+		"/C/Users/Feng/Documents/eorder/www/js/controllers.js",
+		"/C/Users/Feng/Documents/parkinggo/www/templates/car-parkingList.html",
+		"/C/Users/Feng/Documents/parkinggo/www/templates/tab-histories.html",
+		"/C/Users/Feng/Documents/Arduino/SmartParking/ftpsync.settings",
+		"/C/Users/Feng/Desktop/myApp/www/templates/car-parkingList.html",
+		"/C/Users/Feng/Desktop/myApp/www/js/services.js",
+		"/C/Users/Feng/Documents/parkinggo/www/templates/map-settings.html",
+		"/C/Users/Feng/Desktop/myApp/www/templates/map-settings.html",
+		"/C/Users/Feng/Documents/eorder/learned/firebase.html",
+		"/C/Users/Feng/Documents/parkinggo/www/templates/sidemenu.html",
+		"/C/Users/Feng/Desktop/myApp/www/templates/tab-map.html",
+		"/C/Users/Feng/Documents/eorder/www/templates/viewres.html",
+		"/C/Users/Feng/Documents/eorder/www/js/services.js",
+		"/C/Users/Feng/Documents/eorder/www/templates/viewers-menu-item.html",
+		"/C/Users/Feng/Desktop/myApp/www/js/app.js",
+		"/C/Users/Feng/Desktop/myApp/www/.gitignore",
+		"/C/Users/Feng/Documents/Arduino/sunLight/Resume經歷",
+		"/C/Users/Feng/Desktop/myApp/- APP(Abai,Hua)",
+		"/C/Users/Feng/Desktop/myApp/www/templates/sidemenu.html",
+		"/C/Users/Feng/Desktop/myApp/www/templates/tab-histories-detail.html",
+		"/C/Users/Feng/Desktop/myApp/www/templates/tab-histories.html",
+		"/C/Users/Feng/Desktop/myApp/www/index.html",
+		"/C/Users/Feng/Desktop/side/www/templates/menu.html",
+		"/C/Users/Feng/Desktop/side/www/index.html",
+		"/C/Users/Feng/Documents/restaurant/www/js/app.js",
+		"/C/Users/Feng/Documents/restaurant/www/templates/menu.html",
+		"/C/Users/Feng/beEat/www/index.html",
+		"/C/Users/Feng/Desktop/SmartParking/12-1/full-screen-demo.html",
+		"/C/Adobe PhotoShop CS6/photoshop.exe.manifest",
+		"/C/Users/Feng/Desktop/myApp/www/lib/ionic/js/ionic.bundle.js",
+		"/C/Users/Feng/Desktop/myApp/www/templates/car-detais.html",
+		"/C/Users/Feng/Documents/restaurant/www/templates/favourites.html",
+		"/C/Users/Feng/Documents/restaurant/www/js/services.js"
+	],
+	"find":
+	{
+		"height": 83.0
+	},
+	"find_in_files":
+	{
+		"height": 197.0,
+		"where_history":
+		[
+			"C:\\Users\\Feng\\Documents\\WORK_phys\\LightCtrl\\www\\js",
+			"C:\\Users\\Feng\\Documents\\parkinggo\\www",
+			"C:\\Users\\Feng\\Documents\\restaurant\\www",
+			"C:\\Users\\Feng\\Desktop\\myApp\\platforms",
+			"C:\\Users\\Feng\\Desktop\\myApp",
+			"C:\\Users\\Feng\\test_jango\\my-pro-guide",
+			"C:\\Users\\Feng\\test_jango\\my-pro-guide\\saleor",
+			"C:\\Users\\Feng\\test_jango\\my-pro-guide\\saleor\\product\\models",
+			"C:\\Users\\Feng\\test_jango\\my-pro-guide\\saleor\\product\\templates",
+			"C:\\Users\\Feng\\test_jango\\my-pro-guide\\saleor\\product",
+			"C:\\Users\\Feng\\test_jango\\my-pro-guide\\saleor\\product\\templates"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"alex",
+			"\t",
+			"1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t0.9920\t0.9710\t0.9610\t0.9850\t0.9890\t0.9780\t0.9910\t0.9810\t0.9890\t0.9770\t0.9880\t0.9930\t0.9840\t0.9760\t0.9840\t0.9810\t0.9740\t0.9550\t0.9830\t0.9430\t0.9660\t0.9700\t0.9770\t0.9660\t0.9600\t0.9610\t0.9630\t0.9730\t0.9630\t0.9400\t0.9580\t0.9520\t0.9440\t0.9540\t0.9340\t0.9760\t0.9660\t0.9560\t0.9360\t0.9230\t0.9290\t0.9550\t0.9530\t0.9270\t0.9380\t0.9280\t0.9650\t0.9460\t0.9220\t0.9140\t0.9060\t0.9290\t0.9350\t0.9340\t0.9480\t0.9260\t0.9280\t0.9100\t0.9390\t0.9190\t0.9070\t0.9240\t0.9140\t0.9250\t0.9180\t0.8800\t0.9390\t0.9110\t0.9000\t0.8980\t0.8770\t0.8860\t0.8760\t0.9260\t0.9140\t0.9140\t0.8970\t0.9070\t0.9460\t0.9100\t0.9030\t0.9280\t0.9200\t0.9340\t0.9050\t0.8840\t0.9030\t0.9010\t0.9100\t0.9210\t0.8820\t0.8930\t0.8830\t0.8850\t0.9170\t0.9110\t0.9030\t0.9330\t0.9090\t0.9060\t0.9020\t0.8860\t0.8760\t0.9050\t0.8960\t0.8990\t0.8730\t0.9100\t0.8970\t0.8650\t0.8260\t0.9200\t0.8640\t0.8840\t0.8710\t0.8830\t0.8970\t0.8960\t0.8400\t0.9000\t0.8720\t0.8670\t0.8650\t0.8770\t0.8900\t0.8950\t0.8520\t0.8650\t0.8820\t0.8490\t0.8530\t0.8480\t0.8450\t0.8780\t0.8670\t0.8290\t0.8530\t0.8410\t0.8750\t0.8650\t0.8830\t0.8530\t0.8490\t0.8740\t0.8690\t0.8440\t0.8410\t0.8590\t0.8560\t0.8480\t0.8460\t0.8160\t0.8380\t0.8520\t0.8630\t0.8470\t0.8400\t0.8250\t0.8360\t0.8340\t0.8430\t0.8330\t0.8410\t0.8650\t0.8630\t0.8270\t0.8370\t0.8390\t0.8350\t0.8390\t0.8200\t0.8500\t0.8290\t0.8050\t0.8320\t0.8300\t0.8380\t0.8340\t0.8170\t0.8200\t0.8150\t0.8360\t0.8230\t0.8220\t0.8280\t0.8310\t0.8250\t0.8360\t0.8210\t0.8140\t0.8060\t0.7810\t0.8180\t0.8310\t0.8110\t0.8020\t0.8290\t0.8250\t0.8110\t0.8190\t0.7820\t0.8110\t0.8080\t0.8160\t0.8110\t0.8050\t0.8010\t0.8000\t0.7970\t0.8030\t0.7970\t0.8000\t0.8070\t0.7960\t0.7910\t0.7860\t0.8120\t0.7720\t0.7980\t0.7860\t0.8100\t0.7850\t0.7860\t0.8070\t0.7940\t0.7890\t0.7880\t0.7910\t0.7980\t0.8130\t0.7820\t0.8000\t0.7780\t0.7840\t0.7880\t0.7900\t0.7770\t0.7840\t0.7660\t0.7720\t0.7740\t0.7880\t0.7700\t0.7610\t0.7960\t0.7640\t0.7750\t0.7770\t0.7750\t0.7640\t0.7710\t0.7910\t0.7720\t0.7660\t0.7820\t0.7830\t0.7780\t0.7830\t0.7660\t0.7750\t0.7660\t0.7540\t0.7470\t0.7600\t0.7710\t0.7690\t0.7760\t0.7640\t0.7680\t0.7520\t0.7290\t0.7550\t0.7580\t0.7760\t0.7570\t0.7660\t0.7480\t0.7660\t0.7630\t0.7690\t0.7430\t0.7620\t0.7490\t0.7480\t0.7490\t0.7570\t0.7710\t0.7490\t0.7360\t0.7530\t0.7300\t0.7530\t0.7460\t0.7570\t0.7350\t0.7250\t0.7420\t0.7390\t0.7350\t0.7360\t0.7320\t0.7450\t0.7260\t0.7280\t0.7380\t0.7310\t0.7350\t0.7270\t0.7300\t0.7590\t0.7380\t0.7280\t0.7250\t0.7270\t0.7410\t0.7500\t0.7290\t0.7300\t0.7270\t0.7370\t0.7150\t0.7410\t0.7250\t0.7140\t0.7100\t0.7300\t0.6980\t0.7270\t0.7150\t0.7120\t0.7110\t0.7200\t0.7420\t0.7030\t0.7270\t0.7090\t0.7070\t0.6930\t0.7260\t0.7220\t0.7330\t0.7190\t0.7090\t0.6950\t0.7070\t0.7250\t0.7150\t0.6990\t0.7150\t0.7180\t0.7020\t0.7200\t0.7150\t0.7020\t0.6950\t0.7080\t0.7080\t0.7020\t0.6960\t0.7070\t0.7080\t0.6950\t0.7210\t0.6880\t0.7000\t0.7070\t0.6780\t0.6910\t0.6760\t0.7010\t0.7050\t0.7050\t0.7070\t0.6810\t0.6880\t0.6830\t0.6850\t0.7030\t0.7010\t0.7050\t0.7070\t0.6900\t0.7040\t0.6720\t0.6920\t0.6810\t0.7010\t0.6840\t0.6840\t0.7070\t0.6940\t0.6700\t0.6790\t0.6950\t0.6850\t0.6700\t0.6770\t0.7000\t0.6860\t0.6670\t0.6840\t0.6590\t0.6580\t0.6620\t0.6700\t0.6870\t0.6660\t0.6700\t0.6640\t0.6730\t0.6590\t0.6740\t0.6880\t0.6710\t0.6780\t0.6980\t0.6450\t0.6550\t0.6610\t0.6670\t0.6680\t0.6890\t0.6700\t0.6840\t0.6660\t0.6810\t0.6430\t0.6590\t0.6430\t0.6650\t0.6720\t0.6550\t0.6400\t0.6450\t0.6640\t0.6480\t0.6710\t0.6360\t0.6570\t0.6770\t0.6570\t0.6770\t0.6620\t0.6470\t0.6410\t0.6710\t0.6670\t0.6590\t0.6460\t0.6810\t0.6750\t0.6250\t0.6110\t0.6780\t0.6410\t0.6790\t0.6490\t0.6220\t0.6130\t0.6340\t0.6160\t0.6400\t0.6040\t0.6600\t0.6330\t0.6640\t0.6530\t0.6760\t0.6650\t0.6560\t0.6460\t0.6300\t0.6390\t0.6380\t0.6460\t0.6350\t0.6560\t0.6360\t0.6360\t0.6590\t0.6060\t0.6320\t0.6230\t0.5790\t0.6930\t0.6500\t0.6380\t0.6060\t0.6210\t0.6610\t0.6500\t0.6730\t0.6670\t0.6600\t0.6500\t0.6550\t0.6310\t0.6380\t0.6340\t0.6080\t0.5910\t0.6230\t0.6200\t0.6120\t0.5910\t0.6410\t0.6290\t0.6040\t0.6570\t0.6900\t0.6190\t0.6720\t0.6140\t0.6300\t0.6290\t0.5750\t0.6560\t0.6140\t0.7020\t0.5860\t0.6670\t0.5900\t0.6740\t0.6330\t0.6240\t0.6500\t0.6140\t0.6830\t0.6690\t0.5680\t0.5600\t0.6270\t0.5950\t0.5990\t0.6460\t0.5820\t0.6170\t0.6300\t0.6190\t0.5940\t0.5790\t0.6230\t0.5970\t0.7040\t0.5610\t0.6190\t0.6220\t0.6000\t0.6830\t0.6460\t0.5670\t0.6020\t0.6760\t0.6300\t0.6330\t0.6780\t0.5220\t0.6200\t0.7360\t0.5600\t0.6100\t0.5240\t0.6120\t0.6070\t0.5960\t0.6280\t0.5590\t0.7080\t0.5610\t0.5720\t0.5370\t0.5800\t0.4550\t0.5620\t0.6160\t0.5300\t0.6400\t0.6220\t0.6860\t0.6470\t0.6690\t0.6440\t0.5870\t0.6190\t0.6780\t0.4610\t0.5990\t0.5770\t0.5450\t0.4700\t0.6780\t0.4250\t0.4880\t0.7050\t0.5040\t0.6580\t0.5870\t0.5970\t0.7500\t0.5270\t0.6050\t0.4470\t0.6040\t0.6290\t0.6390\t0.6560\t0.6530\t0.7240\t0.6800\t0.4720\t0.6580\t0.5680\t0.7390\t0.5650\t0.5690\t0.5920\t0.6360\t0.6320\t0.7730\t0.6750\t0.6650\t0.4720\t0.6600\t0.6330\t0.4690\t0.6460\t0.4800\t0.6230\t0.6180\t0.5400\t0.6650\t0.6490\t0.3690\t0.6890\t1.0500\t0.6530\t0.7810\t0.5160\t0.6310\t0.7700\t0.7400\t0.5890\t0.5390\t0.4710\t0.5740\t0.4670\t0.6870\t0.5990\t0.8340\t0.4550\t0.4220\t0.7860\t0.7090\t0.5540\t0.5920\t0.6520\t0.4570\t0.5840\t0.3460\t0.8300\t0.4150\t0.6380\t0.6930\t0.6650\t0.4110\t0.4470\t1.3600\t0.8310\t0.9640\t0.3090\t0.5310\t0.4840\t0.5430\t0.2660\t0.6860\t0.7190\t0.4960\t0.7000\t0.9130\t1.3600\t0.7300\t0.4830\t0.3060\t0.6040\t0.3860\t0.8750\t0.7920\t0.5200\t0.9320\t0.3440\t0.5080\t0.4080\t0.4840\t0.8700\t0.7420\t0.5610\t0.8030\t0.5820\t1.0300\t0.6220\t0.8410\t0.1810\t0.7770\t0.2020\t0.7780\t0.7120\t0.7630\t1.0000\t0.3770\t0.1820\t0.3500\t0.7450\t1.0100\t0.2910\t0.4070\t0.6150\t0.5570\t0.4850\t0.1340\t0.5910\t0.6030\t0.4890\t0.2960\t0.4100\t0.7280\t0.6360\t0.9710\t0.4370\t0.6080\t1.0000\t0.3790\t0.8870\t0.7360\t0.0686\t0.8750\t1.0000\t0.2180\t0.0771\t1.0000\t0.8590\t0.5010\t0.1950\t0.2450\t0.6280\t1.0000\t1.5200\t1.0000\t0.7240\t0.3600\t0.1860\t0.5050\t0.8530\t0.1610\t0.2680\t0.5220\t0.7980\t0.1090\t0.1270\t0.7250\t1.0000\t0.8450\t1.0000\t0.2340\t0.2510\t0.3350\t0.4660\t0.1420\t0.5860\t1.0000\t0.4560\t0.1850\t0.1190\t0.1830\t1.0000\t0.2000\t0.2230\t0.1360\t0.8150\t0.2450\t0.1400\t1.0000\t1.4200\t0.4040\t0.8850\t1.0000\t1.0000\t1.0000\t1.2800\t1.0600\t0.0682\t0.3070\t0.5120\t0.0392\t0.0412\t0.2670\t0.2730\t0.0943\t0.8720\t0.3840\t0.0424\t1.4900\t0.2710\t1.0000\t1.0000\t0.6750\t1.0000\t1.0000\t0.1860\t1.0000\t0.1580\t1.0000\t0.2020\t0.6930\t0.2800\t1.5100\t0.2010\t0.0574\t0.5560\t0.4640\t1.0000\t0.0411\t0.1570\t1.0000\t0.2000\t0.1620\t1.0000\t0.3750\t0.6910\t1.0000\t1.0000\t1.0000\t0.5970\t0.7640\t0.1960\t0.4970\t0.1120\t0.0552\t0.9740\t0.0381\t0.0236\t1.0000\t0.5820\t0.6590\t0.0987\t0.4230\t0.4250\t1.0000\t0.3610\t0.4920\t0.1040\t0.5240\t0.3380\t0.9820\t0.3530\t1.4700\t1.5300\t0.6860\t0.3180\t0.1030\t0.4890\t1.0500\t0.1950\t0.7500\t0.0257\t0.4120\t1.0000\t0.4350\t0.9030\t0.4540\t0.0647\t1.0000\t0.0152\t1.0000\t1.0000\t1.0000\t0.3060\t0.1040\t0.2950\t0.0372\t1.2700\t1.1400\t1.1200\t1.2600\t1.0000\t1.0000\t0.5340\t0.7680\t0.3930\t0.0000\t0.9400\t1.0000\t0.7000\t0.4010\t1.0000\t1.0000\t0.0578\t0.4770\t1.3500\t1.0000\t0.2180\t0.4330\t1.0000\t1.0000\t1.0000\t1.0000\t1.0000\t0.2640\t0.2840\t0.0302\t0.2960\t1.0000\t0.8270\t0.8270\t0.0921\t1.0000\t0.2310\t0.6400\t0.8240\t1.0000\t1.5300\t0.1860\t0.5090\t0.4990\t1.0000\t0.3130\t1.4100\t0.0936\t0.9360\t0.3710\t0.2740\t0.1170\t0.0434\t0.7210\t0.1350\t1.0000\t0.5100\t1.4600\t0.7510\t0.2280\t0.2710\t0.8350\t0.2710\t0.0412\t0.5400\t0.6940\t0.1710\t0.3470\t0.7340\t0.4160\t1.0000\t0.9740\t0.2140\t0.2240\t1.0000\t0.3490\t0.5140\t1.0000\t0.1050\t0.0919\t0.5430\t0.0000\t0.6960\t0.0778\t1.0100\t1.0300\t1.0000\t0.1660\t0.0702\t0.0829\t1.0000\t0.5570\t1.0000\t0.8300\t0.1850\t0.1700\t0.6240\t0.9240\t0.0782\t1.0400\t0.6470\t0.6040\t0.1910\t1.0000\t1.0000\t0.0000\t0.1510\t1.0000\t0.4210\t1.0000\t0.5730\t0.2570\t0.2530\t0.2050\t0.1440\t0.2770\t0.0374\t1.0000\t0.3650\t1.0000\t0.6320\t0.7770\t0.4850\t0.2360\t1.0000\t0.3220\t0.7640\t1.4500\t0.5140\t0.1210\t0.2860\t0.5550\t1.0000\t0.6100\t1.4200\t1.3300\t0.0844\t0.1560\t0.1480\t0.2210\t0.3320\t0.0000\t1.0000\t0.1640\t1.0000\t0.8810\t0.1420\t0.0441\t1.0000\t0.3000\t1.0000\t0.4390\t1.3200\t0.2190\t0.6670\t0.2090\t0.1310\t0.0305\t0.3720\t1.0000\t1.0000\t0.8370\t0.0000\t0.1660\t0.2660\t0.3270\t0.3950\t0.0161\t1.0700\t0.1090\t0.0270\t0.2830\t0.4340\t1.0000\t0.4330\t1.4400\t0.1660\t0.3130\t1.0000\t0.1510\t1.5500\t0.4070\t0.1500\t0.0479\t0.9900\t0.2220\t0.0307\t0.3360\t0.2580\t0.0116\t1.0000\t1.0000\t0.1950\t0.1070\t0.6110\t0.3080\t0.0610\t0.1520\t0.2370\t0.1020\t0.3800\t1.0000\t0.0473\t1.0000\t0.3020\t0.5270\t1.0000\t0.1310\t0.7510\t0.5450\t0.1060\t0.0292\t0.0157\t1.0000\t0.0797\t0.0660\t1.0000\t0.4220\t1.0000\t1.0000\t0.0562\t0.1680\t0.0382\t0.2800\t0.2590\t0.1150\t1.0000\t0.1350\t0.9960\t1.0000\t0.9160\t0.0922\t0.0990\t0.7020\t0.1850\t0.4640\t0.4170\t0.1040\t0.4900\t0.0694\t0.0681\t0.6350\t0.1250\t0.3160\t0.8550\t0.1510\t1.0000\t0.0830\t0.2070\t0.1660\t0.3310\t0.0630\t0.4000\t0.4130\t0.3670\t0.8940\t0.2470\t0.4890\t0.4460\t1.0000\t1.3700\t1.1100\t1.0000\t0.2310\t1.0000\t0.2970\t0.6320\t0.2870\t0.5460\t0.2410\t0.0987\t0.5450\t1.0000\t1.0000\t0.4080\t0.0281\t0.0833\t1.0000\t0.2260\t0.1580\t0.1250\t0.3690\t0.2440\t1.0000\t1.3500\t0.0000\t0.5400\t0.3840\t0.0418\t0.3570\t0.8890\t0.5050\t0.2350\t1.2100\t0.1440\t0.1750\t1.0000\t0.5140\t0.4150\t0.2890\t1.0600\t1.2000\t0.5140\t0.1580\t1.0000\t1.0000\t0.0546\t1.0000\t1.4000\t0.0250\t1.0000\t0.0614\t0.1920\t0.2190\t1.0000\t0.3260\t0.0996\t0.1330\t0.7290\t0.7380\t0.1190\t1.0000\t1.0600\t0.3030\t0.1580\t1.4500\t0.0879\t0.2330\t0.2170\t1.0000\t0.1880\t1.0000\t0.4040\t0.0876\t0.1580\t1.0000\t1.0000\t0.1120\t0.2620\t0.2100\t0.7850\t0.0157\t0.6820\t1.0000\t0.1070\t0.1480\t0.2230\t0.1600\t0.2390\t0.6360\t1.0000\t0.2070\t0.1230\t1.0000\t0.2090\t0.1100\t0.1500\t0.2450\t0.6050\t0.0121\t0.1550\t0.1290\t0.0997\t0.2580\t0.0968\t0.0000\t0.2820\t1.0000\t0.0942\t0.2140\t0.6990\t0.0000\t0.0881\t0.8910\t0.5130\t0.3400\t0.6150\t1.0000\t0.2850\t1.0000\t0.0319\t0.8150\t0.4050\t0.0000\t0.4070\t0.7650\t0.1610\t0.5730\t0.2630\t0.0449\t0.4070\t0.0602\t0.3490\t0.9900\t1.0000\t0.2540\t0.2750\t0.4270\t1.0000\t0.6220\t0.3620\t0.2620\t0.6440\t0.7570\t0.7190\t1.2500\t0.0000\t0.9450\t0.4950\t1.0000\t0.3190\t0.1700\t0.1490\t0.3770\t0.1630\t1.0000\t1.0000\t1.1100\t0.1910\t0.1910\t0.5450\t1.0000\t0.4000\t0.3740\t0.7490\t0.2970\t0.5050\t0.3170\t0.0700\t0.0821\t0.1600\t0.2400\t0.2480\t0.2360\t0.1860\t0.1390\t0.0978\t0.1860\t0.3510\t0.3200\t0.2300\t0.0494\t1.0000\t0.0926\t0.2610\t0.1360\t1.0000\t1.0000\t0.5720\t0.4740\t0.5360\t0.8880\t0.1130\t0.4790\t0.0387\t0.2040\t1.4400\t1.0000\t0.4940\t0.3670\t0.3210\t0.4160\t0.8060\t1.0000\t0.2880\t0.0813\t0.6980\t0.0761\t0.4800\t0.4620\t0.2740\t0.3160\t0.0694\t0.0767\t1.0000\t0.5460\t1.0000\t0.1450\t0.3800\t1.2700\t0.2900\t0.4710\t0.0000\t1.4500\t1.0000\t0.3160\t1.1200\t0.5840\t0.2580\t0.0088\t1.5300\t0.2600\t1.0000\t0.4020\t0.2190\t0.1640\t0.2000\t0.4310\t0.3590\t1.0000\t1.0800\t0.3820\t0.6450\t0.1430\t0.9840\t0.5190\t1.0000\t0.1190\t0.3930\t0.2430\t1.3700\t0.2240\t0.0209\t0.0971\t1.0000\t0.5780\t0.3200\t0.3780\t0.9230\t0.1770\t0.4090\t0.7600\t0.0322\t0.3540\t0.2710\t1.0000\t0.3540\t0.0982\t0.3530\t0.7600\t1.0000\t0.1320\t0.6570\t0.1710\t0.4350\t0.5070\t0.0000\t0.0649\t0.1760\t0.0175\t0.0585\t1.0000\t0.4000\t1.0000\t0.9330\t0.2300\t0.4130\t0.3500\t0.0349\t0.1460\t0.0937\t0.3100\t0.5580\t0.0436\t0.1740\t1.0000\t0.8350\t0.1950\t0.6950\t0.3160\t0.2480\t0.1070\t0.2840\t0.3470\t1.0000\t0.1470\t1.0000\t1.0000\t0.1150\t0.9500\t0.0739\t0.4230\t0.0448\t0.4020\t0.1150\t1.0000\t1.0000\t0.8020\t0.4060\t1.1300\t1.0000\t1.1100\t0.9430\t0.0490\t0.4360\t0.4620\t0.3430\t0.4840\t0.0976\t1.0000\t0.1370\t1.0000\t0.1710\t1.1600\t0.2480\t1.3600\t0.0448\t0.4950\t0.4940\t0.4940 \n",
+			"\t",
+			" ",
+			"\t",
+			"\n\t",
+			"186",
+			"\t",
+			"console.log",
+			"routeMap",
+			"login",
+			"controllers.login",
+			"login",
+			"controllers.login",
+			"login",
+			"form",
+			"Form",
+			"form",
+			"Form",
+			"form",
+			"Form",
+			"form",
+			"Form",
+			"form",
+			"Form",
+			"form",
+			"Form",
+			"form",
+			"Form",
+			"form",
+			"thirdPartyLogin",
+			"omb_",
+			"controllers",
+			"Controllers",
+			"controllers",
+			"data-provider",
+			"-3",
+			" \"",
+			" ",
+			"0.",
+			" ",
+			"BufferSize",
+			"_recieveBuffer",
+			"BufferSize",
+			"4",
+			"_decodeBuffer",
+			"_serial",
+			"serial",
+			"Serial",
+			"serial",
+			"Serial",
+			"serial",
+			"Serial",
+			"serial",
+			"Serial",
+			"serial",
+			"Serial",
+			"serial",
+			"Serial",
+			"serial",
+			"Serial",
+			"serial",
+			"PacketSerial",
+			"EncoderType",
+			"SLIP",
+			"COBS",
+			"END",
+			"end",
+			"END",
+			"ESC",
+			"PacketSerial_",
+			"EncoderType",
+			"typename",
+			"EncoderType",
+			"_recieveBuffer",
+			"BufferSize",
+			"PacketMarker",
+			"BufferSize",
+			"_onPacketFunction",
+			"onPacket",
+			"UBRR1H",
+			"Serial1",
+			"_serial",
+			"send",
+			"',",
+			"span",
+			"test",
+			"$ionicModal",
+			"sectionModal",
+			"currentGrp",
+			"modifyGroup",
+			"currentGrp",
+			"Modal",
+			"modal",
+			"Modal",
+			"modal",
+			"sectionModal",
+			"Popup",
+			"modePopup",
+			"modifyGroupPopup",
+			"Popup",
+			"modifyGroupPopup",
+			"Popup",
+			"popup",
+			"open",
+			"Modal",
+			"modal",
+			"groupsData ",
+			"manualC",
+			"manual",
+			"managementCtrl",
+			"management",
+			"devicesList",
+			"setting",
+			"tab-management",
+			"setting",
+			"management",
+			"h1",
+			"tab-management",
+			"management",
+			"index",
+			"devicesList",
+			"goState",
+			"ion-ios-telephone-outline",
+			"devicesList",
+			"ion-ios-settings-strong",
+			"ion-levels"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\t",
+			",",
+			"true",
+			"false"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9504,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6011,
+								6019
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 9086.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "login.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 997,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								274,
+								274
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_init_dirty_state": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "func.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4541,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								143,
+								143
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Feng/Downloads/duck_wp.sql",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1627321,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"force_encoding": "UTF-8",
+							"in_converting": true,
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SQL/SQL.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"viewport_position":
+							[
+								0.0,
+								3363.0
+							]
+						},
+						"translation.x": 0.0,
+						"translation.y": 6549.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/Feng/Downloads/alex/alex.sql",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1604575,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SQL/SQL.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 885.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/Feng/Downloads/alex/latin1Toutf8.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 239,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								80
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/Feng/Downloads/alex/alex_o.sql",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1604687,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SQL/SQL.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3894.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3892,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								314,
+								314
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<header class=\"navbar navbar-static-top navbar-inv",
+							"incomplete_sync": null,
+							"is_init_dirty_state": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 177.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8835,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4266,
+								4293
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_init_dirty_state": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 9614.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1811,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1719,
+								1719
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1547.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 67.0
+	},
+	"input":
+	{
+		"height": 71.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 294.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 420.0
+	},
+	"output.stino_build_panel":
+	{
+		"height": 0.0
+	},
+	"output.stino_panel":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ducks.sublime-project",
+	"replace":
+	{
+		"height": 130.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 318.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

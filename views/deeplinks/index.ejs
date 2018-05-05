@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <script>
+    // load Branch
+    var linkData = {
+        campaign: '<%= TRANSMIT_ID %>',
+        channel: 'email',
+        feature: 'dashboard',
+        stage: 'ADD_TRANSMIT_SUPPLIER',
+        tags: [ 'transmit_id', 'supplier' ],
+        alias: '',
+        data: {
+            'TRANSMIT_ID': '<%= TRANSMIT_ID %>',
+            '$og_title': 'IinTW app',
+            '$og_description': 'Taiwan IinTW app',
+            '$og_image_url':'https://dummyimage.com/600x400/'
+        }
+    };
+
+    (function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode autoAppIndex banner closeBanner closeJourney creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setBranchViewData setIdentity track validateCode trackCommerceEvent".split(" "), 0);
+    // init Branch
+    
+    branch.init('key_test_lcFSJNM5FSTc0E6u25SryjnixriWL56X', function(err, data) {
+    // branch.init('key_live_ikuMRRI6uKOoWt2CX8C23fmcEwd7O48O', function(err, data) {
+        console.log('init');
+        console.log(data);
+        branch.link(linkData, function(err, link) {
+            console.log('link');
+            console.log(link);
+            if('<%= TRANSMIT_ID %>') {
+                window.open(link || err, '_self');
+            }else {
+                alert('錯誤的廠商代碼');
+            }
+            
+        });
+    });
+    
+  </script>
+</head>
+<body>
+    <h1>Please waiting....</h1>
+    <p><%= TRANSMIT_ID %></p>
+</body>
+</html>

@@ -1,0 +1,2 @@
+nohup: ignoring input
+>>> RUN: todo list RESTful API server started on: 8080

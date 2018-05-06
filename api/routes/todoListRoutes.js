@@ -65,15 +65,37 @@ function renderText(text) {
       
               // Read the keywords from the file
               // START OUTPUT
-              fs.readFile('keyword.txt', 'utf8', function (err, keyword) {
-                if (err) {
-                    console.log(err);
-                    reject(err);
+              new Promise(
+                (resolve2, reject2) => {
+                  fs.readFile('keyword.txt', 'utf8', function (err, keyword) {
+                    if (err) {
+                        console.log(err);
+                        reject(err);
+                    }
+                    let keywordArr = keyword.split('_NL_');
+                    console.log(keywordArr);
+                    resolve2(keywordArr); 
+                  });
                 }
-                let arr = keyword.split('_NL_');
-                console.log(arr);
-                resolve(arr);
-                
+              ).then(keywordArr => {
+                new Promise(
+                  (resolve3, reject3) => {
+                    fs.readFile('keyword2.txt', 'utf8', function (err, keyword) {
+                      if (err) {
+                          console.log(err);
+                          reject(err);
+                      }
+                      let linesArr = keyword.split('_NL_');
+                      console.log(linesArr);
+                      resolve3({
+                        lines: linesArr,
+                        keywords: keywordArr
+                      }); 
+                    });
+                  }
+                )
+              }).then(result => {
+                resolve(result);
               });
             } else {
                 console.log("python script cmd error: " + err)

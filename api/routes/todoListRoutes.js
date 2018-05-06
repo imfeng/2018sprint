@@ -78,7 +78,7 @@ function renderText(text) {
                   });
                 }
               ).then(keywordArr => {
-                new Promise(
+                return new Promise(
                   (resolve3, reject3) => {
                     fs.readFile('keyword2.txt', 'utf8', function (err, keyword) {
                       if (err) {

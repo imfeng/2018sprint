@@ -36,7 +36,6 @@ if __name__ == '__main__':
         f = open('keyword2.txt', 'a', encoding = 'UTF-8')    # 也可使用指定路徑等方式，如： C:\A.txt
         # f.write(sents[index] + "_NL_")
         for key in sents[index].split():
-            print(key + "__NL__")
             f.write(key + "__NL__")
         f.close()
 
@@ -47,7 +46,6 @@ if __name__ == '__main__':
             # print(w.encode(sys.stdin.encoding, "replace").decode(sys.stdin.encoding))
             f = open('keyword.txt', 'a', encoding = 'UTF-8')    # 也可使用指定路徑等方式，如： C:\A.txt
             for key in w.split():
-                print(key + "__NL__")
                 f.write(key + "__NL__")
             # f.write(w + "_NL_")
             f.close()

@@ -25,7 +25,7 @@ if __name__ == '__main__':
         doc.append(words)
     rank = textrank.TextRank(doc)
     rank.solve()
-    f = open('keyword.txt', 'w', encoding = 'UTF-8')    # 也可使用指定路徑等方式，如： C:\A.txt
+    f = open('keyword2.txt', 'w', encoding = 'UTF-8')    # 也可使用指定路徑等方式，如： C:\A.txt
     f.write(" ")
     f.close()
     for index in rank.top_index(10):
@@ -34,7 +34,10 @@ if __name__ == '__main__':
         # print(sents[index].encode(sys.stdin.encoding, "replace").decode(sys.stdin.encoding))
         # print(sents[index].encode("utf8", "replace").decode("cp950", "ignore"))
         f = open('keyword2.txt', 'a', encoding = 'UTF-8')    # 也可使用指定路徑等方式，如： C:\A.txt
-        f.write(sents[index] + "_NL_")
+        # f.write(sents[index] + "_NL_")
+        for key in sents[index].split():
+            print(key + "__NL__")
+            f.write(key + "__NL__")
         f.close()
 
     keyword_rank = textrank.KeywordTextRank(doc)
@@ -43,7 +46,10 @@ if __name__ == '__main__':
         if w != '︰':
             # print(w.encode(sys.stdin.encoding, "replace").decode(sys.stdin.encoding))
             f = open('keyword.txt', 'a', encoding = 'UTF-8')    # 也可使用指定路徑等方式，如： C:\A.txt
-            f.write(w + "_NL_")
+            for key in w.split():
+                print(key + "__NL__")
+                f.write(key + "__NL__")
+            # f.write(w + "_NL_")
             f.close()
             # print(w.encode("utf8").decode("cp950", "ignore"))
 

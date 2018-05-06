@@ -53,12 +53,12 @@ function renderText(text) {
         console.log("---> 1: Writing file into contract2.txt....");
         
         // INPUT RAW TEXT
-        fs.writeFileSync("contract2.txt", text, { encoding: 'utf8'});
+        fs.writeFileSync("contract2.txt", text, 'utf8');
         console.log("---> 1: DONE!");
       
         console.log("---> 2: START NLP....");
         // ask python to do the NLP and store in keyword.txt
-        var pyProcess = cmd.get('python test.py',
+        var pyProcess = cmd.get('python3 test.py',
           function (err, data, stderr) {
             if (!err) {
               console.log("data from python script: " + data)

@@ -33,8 +33,8 @@ if __name__ == '__main__':
         # print(sys.stdin.encoding)
         # print(sents[index].encode(sys.stdin.encoding, "replace").decode(sys.stdin.encoding))
         # print(sents[index].encode("utf8", "replace").decode("cp950", "ignore"))
-        f = open('keyword.txt', 'a', encoding = 'UTF-8')    # 也可使用指定路徑等方式，如： C:\A.txt
-        f.write(sents[index] + "\n")
+        f = open('keyword2.txt', 'a', encoding = 'UTF-8')    # 也可使用指定路徑等方式，如： C:\A.txt
+        f.write(sents[index] + "_NL_")
         f.close()
 
     keyword_rank = textrank.KeywordTextRank(doc)
